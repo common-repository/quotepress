@@ -1,0 +1,40 @@
+<div style="clear:both;">
+    <h1>Creating Quotes</h1>
+    <p style="padding-left: 12px;">When you installed QuotePress a new sidebar menu for QuotePress was created.
+    Select "Add New" from the menu and fill out the form:
+    </p>
+    <ul style="padding-left: 24px;">
+       <li>Title - This is for organizational purposes and will also be displayed above the quote itself</li>
+       <li>Quote - The editor box is where you can put your quote. Feel free to style the quote however you like.</li>
+       <li>Author - The person who the quote is attributed to.</li>
+       <li>Source - Where the quote comes from (book, movie, chat room, etc).</li>
+       <li>ASIN - This is an optional Amazon product code associated with the source.</li>
+    </ul>
+    <p style="padding-left: 12px;"><strong>Note: when setting the feature image you must click "set feature image" on the media manager interface.</strong></p>
+    <p style="padding-left: 12px;">After you setup the quote, press "publish" to save the quote and make it available to your pages, posts, widgets, and mobile apps.</p>
+
+    <h1>Putting Quotes In Posts</h1>
+
+    <h2>The Basic Shortcode</h2>
+    <p style="padding-left: 12px;">Go to your page or post where you want to show a quote.  Enter the <code>[quotepress]</code> shortcode.</p>
+    <p style="padding-left: 12px;">Without any extra parameters, this will display a list of quotes based on the defaults set on the settings page.</p>
+    <p style="padding-left: 12px;">So, to display a list of quotes you would enter:<br/>
+       <pre>
+        [quotepress]
+       </pre>
+    </p>
+    <p style="padding-left: 12px;">To display a specific quote you'll need to specify either the quote ID or the shorthand:<br/>
+       <pre>
+        [quotepress id="14"]
+       </pre>
+       or
+       <pre>
+        [quotepress shorthand="some-name"]
+       </pre>
+    </p>
+
+    <h1>Online Documentation</h1>
+    <p style="padding-left: 12px;">
+    For more information, visit <a href="http://redmine.cybersprocket.com/projects/quotepress/wiki" target="cybersprocket">the QuotePress wiki</a>.
+    </p>
+</div>
